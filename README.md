@@ -9,9 +9,29 @@ and enables you to build your Rasa assistant application with Java.
 - Use the flexible `ModelApi`, `DomainApi` and `TrackerApi` to implement additional advanced features, 
   e.g. [interactive learning](https://rasa.com/docs/rasa/writing-stories#using-interactive-learning)
 
-### version
+### Version
 
 `current version: 0.1.0` (unstable)
+
+## Installation
+**Attention!**
+- This is a GitHub package. You nee to [authenticate to GitHub Packages](https://docs.github.com/en/free-pro-team@latest/packages/guides/configuring-gradle-for-use-with-github-packages#installing-a-package) first.
+- Currently available version `0.1.0` is unstable!
+### Maven
+```xml
+<dependency>
+  <groupId>io.github.arturkorb</groupId>
+  <artifactId>rasa-java-client-library</artifactId>
+  <version>0.1.0</version>
+</dependency>
+```
+### Gradle
+```groovy
+dependencies {
+  implementation 'io.github.arturkorb:rasa-java-client-library:0.1.0'
+}
+```
+
 
 ## Compatibility with Rasa
 
