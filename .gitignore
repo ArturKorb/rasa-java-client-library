@@ -1,0 +1,22 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# exclude jar for gradle wrapper
+!gradle/wrapper/*.jar
+
+# build files
+**/target
+target
+gradle/
+build
+
+
+*.properties
+build/
+.gradle/
+.idea/
+out/
