@@ -17,7 +17,9 @@ and enables you to build your Rasa assistant application with Java.
 **Attention!**
 - This is a GitHub package. You need to [authenticate to GitHub Packages](https://docs.github.com/en/free-pro-team@latest/packages/guides/configuring-gradle-for-use-with-github-packages#installing-a-package) first.
 - Currently available version `0.1.0` is unstable!
+
 ### Maven
+
 ```xml
 <dependency>
   <groupId>io.github.arturkorb</groupId>
@@ -25,7 +27,9 @@ and enables you to build your Rasa assistant application with Java.
   <version>0.1.0</version>
 </dependency>
 ```
+
 ### Gradle
+
 ```groovy
 dependencies {
   implementation 'io.github.arturkorb:rasa-java-client-library:0.1.0'
