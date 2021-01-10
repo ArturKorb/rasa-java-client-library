@@ -15,7 +15,7 @@ and enables you to build your Rasa assistant application with Java.
 
 ## Installation
 **Attention!**
-- This is a GitHub package. You nee to [authenticate to GitHub Packages](https://docs.github.com/en/free-pro-team@latest/packages/guides/configuring-gradle-for-use-with-github-packages#installing-a-package) first.
+- This is a GitHub package. You need to [authenticate to GitHub Packages](https://docs.github.com/en/free-pro-team@latest/packages/guides/configuring-gradle-for-use-with-github-packages#installing-a-package) first.
 - Currently available version `0.1.0` is unstable!
 ### Maven
 ```xml
@@ -56,7 +56,7 @@ action
 
 Examples:
 
-```
+```groovy
         /*RasaClient usage example*/
         RasaClient rasaClient = new RasaClient().withBasePath("http://<rasa server url>:5005");
         
@@ -81,26 +81,26 @@ Examples:
         Intent intent = result.getIntent();        
 ```
 
-```
+```groovy
         /*ServerInformationApi usage example*/
         ServerInformationApi serverInformationApi = new ServerInformationApi();
         InlineResponse200 version = serverInformationApi.getVersion();
 ```
 
-```
+```groovy
         /*DomainApi usage example*/
         DomainApi domainApi = new DomainApi();
         Domain domain = domainApi.getDomain();
         DomainConfig config = domain.getConfig();
 ```
 
-```
+```groovy
         /*TrackerApi usage example*/
         TrackerApi trackerApi = new TrackerApi();
         Tracker conversationTracker = trackerApi.getConversationTracker("<conversation_ID>", "ALL", null);
 ```
 
-```
+```groovy
         /*ModelApi usage example*/
         ModelApi modelApi = new ModelApi();
         ModelRequest modelRequest = new ModelRequest();
