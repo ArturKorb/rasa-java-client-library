@@ -109,5 +109,5 @@ Examples:
         ModelApi modelApi = new ModelApi();
         ModelRequest modelRequest = new ModelRequest();
         modelRequest = modelRequest.modelFile("/app/models/" + "<your model file name>");
-        modelApi.replaceModel(modelRequest);
+        modelApi.replaceModel(modelRequest);;
 ```
