@@ -8,10 +8,12 @@ import io.github.arturkorb.utils.ApiCallback;
 import io.github.arturkorb.utils.ApiException;
 import io.github.arturkorb.utils.ApiResponse;
 import io.github.arturkorb.utils.Pair;
+import okhttp3.OkHttpClient;
 import org.apache.commons.lang3.StringUtils;
 
 import java.io.File;
 import java.lang.reflect.Type;
+import java.net.Proxy;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -59,6 +61,11 @@ public class RasaClient {
 
     public RasaClient withAuthToken(String authToken) {
         this.apiClient.setApiKey(authToken);
+        return this;
+    }
+
+    public RasaClient withProxy(Proxy proxy) {
+        this.apiClient.setHttpClient(this.apiClient.getHttpClient().newBuilder().proxy(proxy).build());
         return this;
     }
 
