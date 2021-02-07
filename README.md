@@ -11,7 +11,10 @@ and enables you to build your Rasa assistant application with Java.
 
 ### Version
 
-`current version: 0.1.0` (unstable)
+`current version: 0.2.0` (unstable)
+
+### Requirements
+`java 11 or later`
 
 ## Installation
 **Attention!**
@@ -24,7 +27,7 @@ and enables you to build your Rasa assistant application with Java.
 <dependency>
   <groupId>io.github.arturkorb</groupId>
   <artifactId>rasa-java-client-library</artifactId>
-  <version>0.1.0</version>
+  <version>0.2.0</version>
 </dependency>
 ```
 
@@ -32,7 +35,7 @@ and enables you to build your Rasa assistant application with Java.
 
 ```groovy
 dependencies {
-  implementation 'io.github.arturkorb:rasa-java-client-library:0.1.0'
+  implementation 'io.github.arturkorb:rasa-java-client-library:0.2.0'
 }
 ```
 
@@ -41,7 +44,7 @@ dependencies {
 
 | rasa-java-client-library version    | compatible Rasa version           |
 |----------------|-----------------------------------|
-| `0.1.0`        | `>=2.2.0`                         |
+| `0.2.0`        | `>=2.2.0`                         |
 
 ## Use Case
 
