@@ -13,13 +13,13 @@ and enables you to build your Rasa assistant application with Java.
 
 `current version: 0.2.0` (unstable)
 
-### Requirements
-`java 11 or later`
+## Requirements
+- java 11  and higher
 
 ## Installation
 **Attention!**
 - This is a GitHub package. You need to [authenticate to GitHub Packages](https://docs.github.com/en/free-pro-team@latest/packages/guides/configuring-gradle-for-use-with-github-packages#installing-a-package) first.
-- Currently available version `0.1.0` is unstable!
+- Currently available version `0.2.0` is unstable!
 
 ### Maven
 
